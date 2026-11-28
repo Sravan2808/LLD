@@ -1,0 +1,8 @@
+package designPatterns.Strategy;
+
+public class CarPathCalculator implements PathCalculatorStrategy{
+    @Override
+    public void findPath(String fromLocation, String toLocation) {
+        System.out.println("Calculating car path from " + fromLocation + " to " + toLocation);
+    }
+}
